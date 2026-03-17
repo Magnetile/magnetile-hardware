@@ -76,7 +76,7 @@ Each tile exposes:
 
 The pogo pin connector carries: `VCC`, `GND`, `SDA`, `SCL`, and an optional `INT` line for event-driven wake.
 
-Full tile specification in [`docs/connector-pinout.md`](docs/connector-pinout.md).
+Full tile specification in [`docs/connector-pinout.md`](docs/Pinout.svg).
 
 ---
 
