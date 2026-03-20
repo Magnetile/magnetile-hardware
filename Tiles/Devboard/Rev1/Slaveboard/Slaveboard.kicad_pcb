@@ -555,7 +555,7 @@
 		(path "/4cef1882-8e90-4b15-b1f3-40d924d469b9")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -840,7 +840,7 @@
 		(path "/66cad858-87e0-48ac-91ed-f7408c6fb436")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -1551,7 +1551,7 @@
 		(path "/d9236fab-2e4c-4a81-859a-3b1cafb905a7")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -1836,7 +1836,7 @@
 		(path "/461fad88-433e-4401-a319-820d05fd4c8e")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -2121,7 +2121,7 @@
 		(path "/69ef266f-7b7c-40a9-9160-317ffa5d3920")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -2880,7 +2880,7 @@
 		(path "/e1e86dae-3a77-47a5-a350-c0e4155b0cef")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -3165,7 +3165,7 @@
 		(path "/570ff499-3600-432e-bf3d-edae5340d7e2")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -3771,7 +3771,7 @@
 		(path "/cbd12979-0106-454c-950e-ed7e47bdbf93")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -4056,7 +4056,7 @@
 		(path "/bd1b6817-ff13-40e6-bd2b-5a9805ce36df")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -4662,7 +4662,7 @@
 		(path "/4eae6303-b359-463f-901d-ccf95d73b808")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -4947,7 +4947,7 @@
 		(path "/82736546-f9e3-4d03-9188-21e3c9bddb5d")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -7263,7 +7263,7 @@
 		(path "/bd30251e-bf9d-4c4e-8033-5a5006a72c9f")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -9195,7 +9195,7 @@
 		(path "/e90471a0-5e1f-4a39-9c40-1e354196de13")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -9480,7 +9480,7 @@
 		(path "/b6e439f4-d7af-4b5a-900d-350a3ed6f076")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -9765,7 +9765,7 @@
 		(path "/d756fb51-76c6-4e95-97af-776d0e632bc4")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -10050,7 +10050,7 @@
 		(path "/52617718-2b30-415e-b582-112c2f11362d")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 -1.905)
 			(end 4.445 -1.905)
@@ -10660,7 +10660,7 @@
 		(path "/ab6e6cd7-bf9b-4496-a492-68f2a1505a17")
 		(sheetname "/")
 		(sheetfile "Slaveboard.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.317923 -5.825)
 			(end 1.16 -5.825)
@@ -10938,6 +10938,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d2244a28-636a-41f6-b664-ba5b9f48334f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/737761ed-f54c-4d40-abca-04e81c10df4e")
@@ -11426,6 +11438,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5187096"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "94985309-13d4-4fff-9962-e3832992c640")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
