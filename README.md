@@ -61,6 +61,10 @@ The SnapCore is the first hardware in this repository — the nRF52840-based hub
 - ENIG finish
 - Copper pour excluded from antenna area
 
+### Pinout
+
+<img src="docs/diagramms/Pinout.svg" alt="Magnetile"/>
+
 ---
 
 ## Tile Architecture
