@@ -1928,7 +1928,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Antenna_Chip"
+		(symbol "Device:Antenna"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1940,7 +1940,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at 0 5.08 0)
+				(at -1.905 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1948,8 +1948,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna_Chip"
-				(at 0 3.175 0)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 4.445 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -2.54 4.445 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(property "Description" "Antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1993,10 +1993,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_Chip_0_1"
+			(symbol "Antenna_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 -0.635)
+						(xy 0 2.54) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -2008,91 +2008,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 6.985) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.635) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.985) (xy 2.54 1.905) (xy 1.27 6.985)
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2103,11 +2019,11 @@
 					)
 				)
 			)
-			(symbol "Antenna_Chip_1_1"
+			(symbol "Antenna_1_1"
 				(pin input line
-					(at -2.54 -2.54 90)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "FEED"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2115,24 +2031,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "PCB_Trace"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6098,6 +5996,12 @@
 		(uuid "8d2af1f3-1566-4cc6-abd2-e6990f1a0df2")
 	)
 	(junction
+		(at 224.79 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5173e9-e145-4d5a-aff8-1d1f021f10bc")
+	)
+	(junction
 		(at 533.4 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6192,12 +6096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecced49a-aba9-4d74-bf3d-0034f44f8b57")
-	)
-	(junction
-		(at 224.79 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6de99f6-0468-420f-bed8-96fcff9a1bfe")
 	)
 	(no_connect
 		(at 123.19 273.05)
@@ -6347,16 +6245,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 135.89) (xy 261.62 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "044c022a-cac8-44f8-9fc2-b60f91099935")
-	)
-	(wire
-		(pts
 			(xy 114.3 204.47) (xy 123.19 204.47)
 		)
 		(stroke
@@ -6427,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 148.59) (xy 261.62 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac27620-6038-4e12-9c1a-c5d2dc6bbc61")
-	)
-	(wire
-		(pts
 			(xy 350.52 114.3) (xy 350.52 80.01)
 		)
 		(stroke
@@ -6497,7 +6375,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 143.51) (xy 245.11 146.05)
+			(xy 245.11 143.51) (xy 245.11 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6714,26 +6592,6 @@
 			(type default)
 		)
 		(uuid "243b8c48-7098-40e5-812f-d691b8561140")
-	)
-	(wire
-		(pts
-			(xy 245.11 146.05) (xy 250.19 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a8bbbb-a167-45a5-ae06-aa573749c966")
-	)
-	(wire
-		(pts
-			(xy 250.19 146.05) (xy 250.19 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ca1f23-dad1-4b21-b97b-47ef2771488c")
 	)
 	(wire
 		(pts
@@ -7124,16 +6982,6 @@
 			(type default)
 		)
 		(uuid "487b7a0b-344a-409c-92c4-07b015eb38af")
-	)
-	(wire
-		(pts
-			(xy 257.81 132.08) (xy 261.62 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a7d57e-947e-45c5-ba2f-3305f22ca40e")
 	)
 	(wire
 		(pts
@@ -7534,6 +7382,16 @@
 			(type default)
 		)
 		(uuid "76948cb3-fe0f-4a3b-9430-79356811424c")
+	)
+	(wire
+		(pts
+			(xy 224.79 146.05) (xy 224.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aae9a4b-a1d8-42a2-a7eb-d306973b2712")
 	)
 	(wire
 		(pts
@@ -8057,16 +7915,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 146.05) (xy 224.79 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ac6331-f17b-4e28-bfcb-0c0d764ae9c5")
-	)
-	(wire
-		(pts
 			(xy 208.28 148.59) (xy 208.28 156.21)
 		)
 		(stroke
@@ -8374,16 +8222,6 @@
 			(type default)
 		)
 		(uuid "c1c02f1b-7d6b-4144-9f12-779babb703a0")
-	)
-	(wire
-		(pts
-			(xy 261.62 132.08) (xy 261.62 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1fbb3fd-fbd1-4d24-bb2a-ba8f9d291910")
 	)
 	(wire
 		(pts
@@ -9047,7 +8885,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 132.08) (xy 250.19 132.08)
+			(xy 245.11 132.08) (xy 259.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -11797,7 +11635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 151.13 0)
+		(at 224.79 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11806,7 +11644,7 @@
 		(fields_autoplaced yes)
 		(uuid "255534db-4af8-4cf0-9b70-b1a5432b5bae")
 		(property "Reference" "#PWR026"
-			(at 224.79 157.48 0)
+			(at 224.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +11653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 156.21 0)
+			(at 224.79 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11823,7 +11661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 151.13 0)
+			(at 224.79 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11832,7 +11670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 151.13 0)
+			(at 224.79 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,7 +11679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 151.13 0)
+			(at 224.79 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +12641,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 148.59 0)
+		(at 245.11 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12812,7 +12650,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e74e0e1-7619-422b-b68f-6c72fa6564bb")
 		(property "Reference" "#PWR027"
-			(at 250.19 154.94 0)
+			(at 245.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,7 +12659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 153.67 0)
+			(at 245.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,7 +12667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 148.59 0)
+			(at 245.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +12676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 148.59 0)
+			(at 245.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +12685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 148.59 0)
+			(at 245.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13760,94 +13598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Chip")
-		(at 264.16 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "625561f5-27b5-4a7f-83c2-a685849e6b23")
-		(property "Reference" "AE1"
-			(at 274.32 132.7149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SWRA117D_2.4Ghz"
-			(at 274.32 135.2549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
-			(at 268.605 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 268.605 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic chip antenna with pin for PCB trace"
-			(at 264.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 264.16 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 264.16 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2fac5ca9-1288-4750-9d0a-ded3facdb104")
-		)
-		(pin "1"
-			(uuid "505551e9-acc3-4fa6-97b5-20aa7432dbeb")
-		)
-		(instances
-			(project ""
-				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 358.14 294.64 0)
 		(unit 1)
@@ -14149,74 +13899,6 @@
 			(project "macropad"
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ad8a47c-9b72-4de3-ab6d-706dbac07f30")
-		(property "Reference" "R7"
-			(at 254 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 254 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bc6d41d-4d00-4adb-913b-6f66bf223ddb")
-		)
-		(pin "2"
-			(uuid "e2d46bfa-c3e3-4345-a4f3-0fdf37eeaf20")
-		)
-		(instances
-			(project ""
-				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15340,94 +15022,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 261.62 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b669b7fc-8497-4089-b2e7-2920ead88c46")
-		(property "Reference" "C17"
-			(at 266.7 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
-			(at 266.7 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 262.5852 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 261.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 261.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 261.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f317519-3d7e-48b4-bae2-b043f86939a6")
-		)
-		(pin "1"
-			(uuid "8e9fbb2e-5b7d-4be2-8b2f-a2c447fc56fa")
-		)
-		(instances
-			(project "macropad"
-				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 260.35 214.63 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15616,72 +15210,6 @@
 			(project ""
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "befe9a10-7bd4-4c3f-a353-6b010595b4a2")
-		(property "Reference" "#PWR028"
-			(at 261.62 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6caba18a-b5b9-42f9-9b94-dfde4d70e482")
-		)
-		(instances
-			(project "macropad"
-				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17026,6 +16554,73 @@
 			(project ""
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 259.08 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a9eaae-a86c-4c93-b4b6-ef4cf5732809")
+		(property "Reference" "AE2"
+			(at 261.62 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMCA31-2R450G-S1F-T3"
+			(at 261.62 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AMCA31-2R450G-S1F-T3:XDCR_AMCA31-2R450G-S1F-T3"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c69747-fe37-4980-b3c8-4326802b3ab9")
+		)
+		(instances
+			(project ""
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "AE2")
 					(unit 1)
 				)
 			)

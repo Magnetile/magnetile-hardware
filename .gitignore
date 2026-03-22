@@ -3,3 +3,7 @@
 *.bak
 *-backup
 *-save
+/Tiles/Devboard/Rev1/Slaveboard/Slaveboard-backups
+/SnapCore/KiCAD/DevBoard/SnapCore-Devboard-Rev1/SnapCore-Devboard-Rev1-backups
+Tiles/Devboard/Rev1/Slaveboard/\#auto_saved_files\#
+SnapCore/KiCAD/DevBoard/.DS_Store
