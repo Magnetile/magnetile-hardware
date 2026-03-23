@@ -5,6 +5,307 @@
 	(uuid "f0abf294-ed6a-491b-abc8-f6e6594dbb09")
 	(paper "A2")
 	(lib_symbols
+		(symbol "AS5600:AS5600"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "AS5600"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "AS5600:SOIC8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Ams AG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Hall Effect Sensor Rotary Position External Magnet, Not Included Gull Wing"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AS5600/ams/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "AS5600"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AS5600/ams/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AS5600_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "AS5600"
+					(at 0 -10.16 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "VDD5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "VDD3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "PGO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5714,6 +6015,18 @@
 		)
 	)
 	(rectangle
+		(start 226.06 314.96)
+		(end 318.77 375.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 284957d5-16e6-4788-b77a-5d034b6a486a)
+	)
+	(rectangle
 		(start 411.48 12.7)
 		(end 581.66 138.43)
 		(stroke
@@ -5849,6 +6162,16 @@
 		)
 		(uuid "31342255-8f12-4bbf-8487-ca79b7786812")
 	)
+	(text "Absolute Pos"
+		(exclude_from_sim no)
+		(at 243.332 321.056 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3a2002f6-7483-4bd0-b6b9-3da13770bc21")
+	)
 	(text "RESET\n"
 		(exclude_from_sim no)
 		(at 329.692 237.744 0)
@@ -5906,6 +6229,12 @@
 		(uuid "00e3eb78-3d72-4c44-aec1-63dd26154e99")
 	)
 	(junction
+		(at 262.89 337.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "016a4a56-4450-45f6-b370-a6a8d061d3e6")
+	)
+	(junction
 		(at 463.55 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5958,6 +6287,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f8a0b99-b159-48e5-8814-14f1cdffbbd3")
+	)
+	(junction
+		(at 257.81 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60877632-358c-4a6f-a5e8-5f9473f53e4e")
+	)
+	(junction
+		(at 261.62 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b4efee2-506b-471b-8ca5-3bfd17ced260")
 	)
 	(junction
 		(at 201.93 148.59)
@@ -6038,6 +6379,12 @@
 		(uuid "b60f9302-f7ef-4d1e-b8e0-f6cf80985b21")
 	)
 	(junction
+		(at 266.7 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8cd8f8f-e16c-4388-95fc-0a8b2f2b4b5e")
+	)
+	(junction
 		(at 58.42 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6097,6 +6444,18 @@
 		(color 0 0 0 0)
 		(uuid "ecced49a-aba9-4d74-bf3d-0034f44f8b57")
 	)
+	(junction
+		(at 257.81 340.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f31ed768-9126-4659-baba-08e64c17cb19")
+	)
+	(junction
+		(at 254 340.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f383557a-9cf3-465d-9c0d-979c271d346c")
+	)
 	(no_connect
 		(at 123.19 273.05)
 		(uuid "0b57060d-9c5e-4edf-8190-ef8bcab807f0")
@@ -6112,6 +6471,10 @@
 	(no_connect
 		(at 123.19 265.43)
 		(uuid "40566e9c-d82e-4207-88e8-2af6a5e84864")
+	)
+	(no_connect
+		(at 297.18 342.9)
+		(uuid "44762e81-e4bb-4b63-9f8b-7e3879325d3d")
 	)
 	(no_connect
 		(at 114.3 237.49)
@@ -6166,6 +6529,10 @@
 		(uuid "9e128108-1f82-4611-a19a-4b50585d5a98")
 	)
 	(no_connect
+		(at 297.18 340.36)
+		(uuid "9eef1fca-9c4f-42b1-9a40-ef4b9adb0daf")
+	)
+	(no_connect
 		(at 123.19 267.97)
 		(uuid "c326f004-7088-407c-8617-7f86e7b19e44")
 	)
@@ -6192,6 +6559,16 @@
 	(no_connect
 		(at 114.3 227.33)
 		(uuid "ffe46fae-5721-41b7-817e-e988c3efeb53")
+	)
+	(wire
+		(pts
+			(xy 266.7 358.14) (xy 297.18 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00431822-4684-45ad-8db5-3f04a3a9297f")
 	)
 	(wire
 		(pts
@@ -6465,6 +6842,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 345.44) (xy 266.7 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a566299-358c-4b6d-b208-2a10ba91dd2e")
+	)
+	(wire
+		(pts
 			(xy 201.93 148.59) (xy 208.28 148.59)
 		)
 		(stroke
@@ -6512,6 +6899,16 @@
 			(type default)
 		)
 		(uuid "1f3e1397-fc7c-4b02-96be-c831d29756fc")
+	)
+	(wire
+		(pts
+			(xy 306.07 337.82) (xy 306.07 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7bc4e1-20bf-414f-82db-0565703846d8")
 	)
 	(wire
 		(pts
@@ -6675,6 +7072,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 358.14) (xy 297.18 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb4b131-f2fa-4bf4-91bf-22b9bd855857")
+	)
+	(wire
+		(pts
 			(xy 458.47 181.61) (xy 469.9 181.61)
 		)
 		(stroke
@@ -6692,6 +7099,16 @@
 			(type default)
 		)
 		(uuid "2c00cd7c-c790-402d-8f1d-c51553f39e96")
+	)
+	(wire
+		(pts
+			(xy 262.89 337.82) (xy 254 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9c6a7f-894d-4e04-b4b2-fcd4c1f814a4")
 	)
 	(wire
 		(pts
@@ -6885,6 +7302,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 340.36) (xy 257.81 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f754fed-f74f-41f4-b6b4-b6d6cfcd45a0")
+	)
+	(wire
+		(pts
 			(xy 156.21 303.53) (xy 156.21 307.34)
 		)
 		(stroke
@@ -6945,6 +7372,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 358.14) (xy 261.62 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4487b348-fc46-4631-bcc5-c5e1d3fc53dc")
+	)
+	(wire
+		(pts
 			(xy 351.79 77.47) (xy 341.63 77.47)
 		)
 		(stroke
@@ -6992,6 +7429,16 @@
 			(type default)
 		)
 		(uuid "48f8189c-e4f1-48aa-baa4-02f41ee8c88d")
+	)
+	(wire
+		(pts
+			(xy 243.84 340.36) (xy 243.84 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a54bb0a-2a99-4f32-8942-32c3f83dc93b")
 	)
 	(wire
 		(pts
@@ -7065,6 +7512,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 332.74) (xy 261.62 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5110c3d7-4272-45ff-8cb6-c31069687581")
+	)
+	(wire
+		(pts
 			(xy 111.76 179.07) (xy 123.19 179.07)
 		)
 		(stroke
@@ -7112,6 +7569,16 @@
 			(type default)
 		)
 		(uuid "54d7a22f-1c6f-4aea-a481-930babb0f928")
+	)
+	(wire
+		(pts
+			(xy 262.89 328.93) (xy 262.89 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5544fae0-1619-4c40-9f1f-8acb2bd18ced")
 	)
 	(wire
 		(pts
@@ -7205,6 +7672,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 342.9) (xy 266.7 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeaf5b3-6479-4e9f-be22-c1ac0f6945b0")
+	)
+	(wire
+		(pts
+			(xy 266.7 358.14) (xy 261.62 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f90982-9a32-49b1-80b5-2fc9af3b3a67")
+	)
+	(wire
+		(pts
 			(xy 373.38 266.7) (xy 373.38 271.78)
 		)
 		(stroke
@@ -7222,6 +7709,16 @@
 			(type default)
 		)
 		(uuid "642866b1-a278-4bae-b643-92244dc10f55")
+	)
+	(wire
+		(pts
+			(xy 262.89 337.82) (xy 266.7 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65300f32-eba7-4225-b7f3-a0ca44f9cd0f")
 	)
 	(wire
 		(pts
@@ -7345,6 +7842,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 332.74) (xy 261.62 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7067aef8-7615-495f-ad7d-6cea0162d4fd")
+	)
+	(wire
+		(pts
 			(xy 260.35 209.55) (xy 269.24 209.55)
 		)
 		(stroke
@@ -7372,6 +7879,16 @@
 			(type default)
 		)
 		(uuid "739bb6ea-44ee-4558-bd11-c437092fa7f1")
+	)
+	(wire
+		(pts
+			(xy 254 337.82) (xy 254 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c46eab-a87b-44fc-b70a-7a04c6404a81")
 	)
 	(wire
 		(pts
@@ -7615,6 +8132,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 358.14) (xy 261.62 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2ef857-2a40-456e-8433-87ff106d9cf1")
+	)
+	(wire
+		(pts
 			(xy 189.23 285.75) (xy 196.85 285.75)
 		)
 		(stroke
@@ -7775,6 +8302,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 337.82) (xy 306.07 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1fea28-895c-4203-88f1-b44254f235cd")
+	)
+	(wire
+		(pts
 			(xy 153.67 116.84) (xy 161.29 116.84)
 		)
 		(stroke
@@ -7882,6 +8419,16 @@
 			(type default)
 		)
 		(uuid "aad65759-e908-404a-a146-a9c1531ae2dc")
+	)
+	(wire
+		(pts
+			(xy 243.84 350.52) (xy 243.84 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac526f2c-10af-4bdb-bf8a-af91813d69d5")
 	)
 	(wire
 		(pts
@@ -8075,6 +8622,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 340.36) (xy 254 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89a5769-d0dc-49e7-b6c4-75728ab718b5")
+	)
+	(wire
+		(pts
 			(xy 218.44 146.05) (xy 224.79 146.05)
 		)
 		(stroke
@@ -8225,6 +8782,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 340.36) (xy 266.7 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2222054-771b-47f3-85b1-718917715280")
+	)
+	(wire
+		(pts
 			(xy 370.84 114.3) (xy 350.52 114.3)
 		)
 		(stroke
@@ -8345,6 +8912,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 358.14) (xy 257.81 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdcec71-dee3-4e0a-b1e8-78ad082f5f95")
+	)
+	(wire
+		(pts
 			(xy 476.25 295.91) (xy 476.25 299.72)
 		)
 		(stroke
@@ -8452,6 +9029,16 @@
 			(type default)
 		)
 		(uuid "d5a7d8f9-1bf3-4bbf-a546-8dbe07acff63")
+	)
+	(wire
+		(pts
+			(xy 254 340.36) (xy 257.81 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d613183f-708b-4e54-a0bd-be4f5aac5297")
 	)
 	(wire
 		(pts
@@ -8822,6 +9409,16 @@
 			(type default)
 		)
 		(uuid "f5831b93-8653-4d83-9fe4-378f8870ce1a")
+	)
+	(wire
+		(pts
+			(xy 257.81 353.06) (xy 257.81 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63539d6-fd38-4626-a8df-5c59b3f2a59b")
 	)
 	(wire
 		(pts
@@ -10649,6 +11246,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 262.89 328.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e638be62-d245-4fb7-847f-62e31609cb64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 322.4372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 104.14 135.89 180)
@@ -10733,6 +11352,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.04_AIN2_A4_D4"
+		(shape input)
+		(at 251.46 332.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f775bd60-030e-4158-967b-2e45fd2e31c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.0577 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13905,6 +14546,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 306.07 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c04f544-896b-4759-aec1-152d09f71b40")
+		(property "Reference" "#PWR017"
+			(at 306.07 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3178d81-5388-4432-a283-a9816689fc43")
+		)
+		(instances
+			(project "SnapCore-Devboard-Rev1"
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 440.69 80.01 0)
 		(unit 1)
@@ -14773,6 +15480,142 @@
 			(project "macropad"
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 346.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b3ab8c-0269-4049-9d3f-de669bdf98b1")
+		(property "Reference" "C4"
+			(at 247.65 345.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 247.65 347.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 244.8052 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37101fa2-8c76-442c-848e-2a3bf3b6b172")
+		)
+		(pin "1"
+			(uuid "4aaf2a9d-632c-4db2-a85f-fb1d9baa068f")
+		)
+		(instances
+			(project ""
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a38b9276-5c98-41d7-9049-5f4bff239737")
+		(property "Reference" "#PWR016"
+			(at 261.62 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fee96e2-7ac0-4f58-a4ae-9fac26f4a1cd")
+		)
+		(instances
+			(project ""
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16089,6 +16932,173 @@
 			(project ""
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AS5600:AS5600")
+		(at 281.94 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da19adc8-edaa-4b51-8697-0a78e80d05fc")
+		(property "Reference" "U3"
+			(at 281.9474 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS5600"
+			(at 281.9474 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AS5600:SOIC8"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Ams AG"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Hall Effect Sensor Rotary Position External Magnet, Not Included Gull Wing"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AS5600/ams/view-part/?ref=snap"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AS5600"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AS5600/ams/view-part/?ref=eda"
+			(at 281.94 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ef2d60bf-074a-4f77-a878-4044e73a7184")
+		)
+		(pin "5"
+			(uuid "287cb399-2733-4b9c-a670-2e96dafdb4d3")
+		)
+		(pin "7"
+			(uuid "aadf765c-2990-47e1-a0f6-3d39cc19c8bb")
+		)
+		(pin "8"
+			(uuid "78f93da6-a48f-40e0-8c08-1b9e550d84f9")
+		)
+		(pin "4"
+			(uuid "cbc994a2-f1ca-4e98-a606-8831115627c1")
+		)
+		(pin "3"
+			(uuid "9ad68cd6-37b6-4076-8366-4e7143378b23")
+		)
+		(pin "2"
+			(uuid "9f3933f1-85e5-468a-b5ac-5526eae274ec")
+		)
+		(pin "1"
+			(uuid "7cab74fa-3800-446c-8dfd-6e05b0fca509")
+		)
+		(instances
+			(project ""
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17480,6 +18490,76 @@
 			(project ""
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 257.81 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bc575a-a4ae-4051-aaa1-89eb18980fa5")
+		(property "Reference" "C5"
+			(at 261.62 347.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 261.62 350.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 258.7752 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 257.81 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0afb50ff-ecc0-41de-b922-33144c9828e6")
+		)
+		(pin "1"
+			(uuid "ba1c2d66-2714-4916-81fe-200e1be3afa8")
+		)
+		(instances
+			(project "SnapCore-Devboard-Rev1"
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "C5")
 					(unit 1)
 				)
 			)
