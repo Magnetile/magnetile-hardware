@@ -1,4 +1,4 @@
-27297852087433080
+27310272946258274
 AMCA31-2R450G-S1F-T3
 XDCR_AMCA31-2R450G-S1F-T3
 
@@ -6,6 +6,13 @@ XDCR_AMCA31-2R450G-S1F-T3
 0
 2
 2
+AS5600
+SOIC8
+<b>SOIC-8</b> CASE 751-07<p>Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF<p><b>D (R-PDSO-G8)</b>PLATIC SMALL-OUTLINE PACKAGE<br>Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf
+
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94289,6 +94296,41 @@ mousebite stamp slot break tab 2mm edge on-edge
 0
 0
 0
+Pictures
+FixedLogo
+
+
+0
+0
+0
+Pictures
+FixedLogoBackside
+
+
+0
+0
+0
+Pictures
+FixedLogoFlipped
+
+
+0
+0
+0
+Pictures
+PF-Logo
+
+
+0
+0
+0
+Pictures
+Untitled
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -108121,3 +108163,10 @@ Varistor VF
 0
 2
 2
+WS2815
+LED-TRICOLOR-5050
+<h3>WS2815 5050 SMD RGB LED</h3><p><b>Specifications:</b><ul><li>Pin count: 6</li><li>Pin pitch: 0.6mm</li><li>Area: 5.0mm x 5.0mm</li><li>Thickness: 2.6mm</li></ul></p><p><b>Example device(s):</b><ul><li>LED-RGB</li></ul></p>
+
+0
+6
+6
