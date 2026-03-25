@@ -17008,18 +17008,18 @@
 	(segment
 		(start 104.09 114.3575)
 		(end 104.09 115.62)
-		(width 0.2)
+		(width 0.4)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "158f51e3-d573-4c7d-82e1-350110afc4c8")
+		(uuid "978ee1ea-08ce-49de-81ce-d01300f486f4")
 	)
 	(segment
 		(start 104.09 115.62)
 		(end 104.1 115.63)
-		(width 0.2)
+		(width 0.4)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "4dc5c020-1190-4c4f-8e0d-11e4f96c354f")
+		(uuid "d8bb62f6-68d4-45d4-8920-bffeac5e9956")
 	)
 	(segment
 		(start 107.8925 101.8375)
