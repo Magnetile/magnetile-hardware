@@ -6,7 +6,7 @@
 
 **Open source modular wireless macropad system**
 
-[![License: CERN-OHL-S v2](https://img.shields.io/badge/License-CERN--OHL--S%20v2-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: Rev 1 · In Progress](https://img.shields.io/badge/Status-Rev%201%20·%20In%20Progress-orange)]()
 [![PCB: 4-layer](https://img.shields.io/badge/PCB-4--layer-green)]()
 [![MCU: nRF52840](https://img.shields.io/badge/MCU-nRF52840-purple)]()
@@ -15,7 +15,7 @@
 
 ---
 
-Magnetile is a modular wireless input device. A central hub connects to interchangeable input tiles — mechanical keys, rotary encoders, sliders, display keys — via magnetic pogo pin connectors. The hub presents as a single BLE HID device to the host. Everything is open source.
+Magnetile is a modular wireless input device. A central hub connects to interchangeable input tiles - mechanical keys, rotary encoders, sliders, display keys - via magnetic pogo pin connectors. The hub presents as a single BLE HID device to the host. Everything is open source.
 
 > **Personal project by a maker in Bavaria, Germany. Not for commercial sale.**
 
@@ -40,10 +40,10 @@ The SnapCore is the first hardware in this repository — the nRF52840-based hub
 | MCU | Nordic nRF52840 (AQFN-73) | BLE 5, USB, 1MB flash, 256KB RAM |
 | LDO | XC6220B331MR-G (Torex, SOT-23-5) | 3.3V, 1A, ~8µA quiescent |
 | Battery charger | TP4056 | Single-cell LiPo, ~300mA charge rate |
-| USB | USB-C, 5.1kΩ CC pull-downs | Power delivery only (rev 1) |
+| USB | USB-C, 5.1kΩ CC pull-downs |  |
 | HF crystal | 32 MHz | nRF52840 system clock |
 | RTC crystal | 32.768 kHz | Low-power RTC |
-| QSPI flash | W25Q128 (16 MB) | DNP rev 1, footprint reserved |
+| QSPI flash | W25Q128 (16 MB) | Planned for rev 2 |
 | Antenna | PCB trace (meander) | SWRA117D reference, tunable RF matching |
 | Tile bus | I²C with 4.7kΩ pull-ups | Pogo pin connector |
 
@@ -56,9 +56,6 @@ The SnapCore is the first hardware in this repository — the nRF52840-based hub
 | In2.Cu | Power distribution + overflow signals |
 | B.Cu | Signals |
 
-- All vias: 0.6mm outer / 0.3mm drill, F.Cu to B.Cu
-- GND stitching vias every ~7mm
-- ENIG finish
 - Copper pour excluded from antenna area
 
 ### Pinout
@@ -119,13 +116,25 @@ All design files are in KiCad 9. Fab outputs (Gerbers, BOM, CPL) for JLCPCB are 
 
 **Preferred suppliers:** JLCPCB (PCB + assembly), LCSC (components).
 
+This project is designed around JLCPCB's manufacturing ecosystem. If you want to replicate the build, the Gerbers and BOM are ready to upload directly:
+
+[**Order PCBs / PCBA from JLCPCB**](https://jlcpcb.com/?from=mnt)
+
+For managing orders across services - PCB fabrication, assembly, 3D printing, CNC - JLCPCB offers **JLCONE**, a unified desktop platform that consolidates their full manufacturing stack (JLCPCB, JLC3DP, JLCCNC, JLCMC) into one interface. You can upload files, place orders, and track shipments across all services in one place. The desktop version includes a coupon bundle covering various services and shipping.
+
+[**Download JLCONE**](https://jlcpcb.com/download?from=mnt)
+
+---
+
+## Acknowledgements
+
+This project's prototype run is supported by **[JLCPCB](https://jlcpcb.com/?from=mnt)**. Their PCB fabrication and SMT assembly service makes iterating on dense, complex boards like the SnapCore genuinely accessible for independent open source hardware projects.
+
 ---
 
 ## License
 
-Hardware design files are licensed under **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2)**.
-
-See [`LICENSE`](LICENSE) for the full text.
+MIT - see [`LICENSE`](LICENSE).
 
 ---
 
