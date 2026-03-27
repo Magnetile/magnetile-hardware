@@ -3414,7 +3414,7 @@
 		(path "/68919357-e43c-43b2-b621-f717488e6177")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -6171,7 +6171,7 @@
 		(path "/142a252f-be50-4fea-9696-bd536ab59c85")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -8250,7 +8250,7 @@
 		(path "/e0ca4740-5c94-4fcb-96cc-e06e1b297672")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 1.2)
@@ -13080,7 +13080,7 @@
 		(path "/f5a46033-d21d-42e1-99d7-83b1aada9bde")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -13189,7 +13189,7 @@
 		(path "/dbb803ac-1d4a-4624-bce5-4478c62d3f16")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -13298,7 +13298,7 @@
 		(path "/8935e23a-14ca-445c-9263-27d366340a3e")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -13407,7 +13407,7 @@
 		(path "/64f17581-fde8-48cf-b53d-63109524b34c")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -13516,7 +13516,7 @@
 		(path "/1abeea45-9c40-4f8f-a913-63e0ae5304e2")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -13625,7 +13625,7 @@
 		(path "/75def1b1-992c-4338-8211-744eb9d38e1a")
 		(sheetname "/")
 		(sheetfile "SnapCore-Devboard-Rev1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)

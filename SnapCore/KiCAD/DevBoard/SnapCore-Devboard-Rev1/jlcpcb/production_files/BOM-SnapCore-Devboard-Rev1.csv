@@ -14,7 +14,7 @@ Comment,Designator,Footprint,LCSC,Quantity
 2.2uF,"C11,C12,C6",C_0603_1608Metric,C23630,3
 2.2uF,C4,C_0805_2012Metric,C377773,1
 32.768KHz,Y1,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346,1
-32MHz,Y2,Crystal_SMD_2016-4Pin_2.0x1.6mm,C187794,1
+32Mhz,Y3,Crystal_SMD_2016-4Pin_2.0x1.6mm,C187794,1
 330R,R7,R_0603_1608Metric,C23138,1
 33R,"R19,R20",R_0402_1005Metric,C25105,2
 4.7k,"R16,R17",R_0402_1005Metric,C25900,2
@@ -36,11 +36,3 @@ USB_C_Receptacle_USB2.0_16P,J2,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Hori
 XC6220B331MR,U2,SOT-23-5,C3040644,1
 nRF52840-QIXX,U1,Nordic_AQFN-73-1EP_7x7mm_P0.5mm,C190794,1
 Conn_01x18_Pin,J3,PinHeader_1x18_P1.27mm_Vertical,,1
-PROG,TP7,TestPoint_Pad_D2.0mm,,1
-RF,TP6,TestPoint_Pad_D2.0mm,,1
-RESET,TP5,TestPoint_Pad_D2.0mm,,1
-GND,TP4,TestPoint_Pad_D2.0mm,,1
-3V3,TP3,TestPoint_Pad_D2.0mm,,1
-VBAT,TP2,TestPoint_Pad_D2.0mm,,1
-VBUS,TP1,TestPoint_Pad_D2.0mm,,1
-Battery JST 3.7V,BAT,JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,,1

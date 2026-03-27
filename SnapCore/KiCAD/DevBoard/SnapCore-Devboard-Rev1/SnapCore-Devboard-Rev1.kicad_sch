@@ -2407,7 +2407,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2424,7 +2424,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -2451,7 +2451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2498,7 +2498,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
@@ -2595,7 +2595,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2643,7 +2643,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2654,14 +2654,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
-					(name "4"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10851,7 +10851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 496.57 102.87 0)
 			(effects
 				(font
@@ -11211,100 +11211,6 @@
 			(project "macropad"
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 77.47 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18e949af-b108-45f5-929b-df56953d87af")
-		(property "Reference" "Y2"
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32MHz"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 77.47 92.71 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 77.47 95.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "abde842c-2186-4e3e-a4f6-2753a943eb28")
-		)
-		(pin "1"
-			(uuid "c529b7a5-c7b7-4f80-b577-80a28c77c071")
-		)
-		(pin "4"
-			(uuid "f038d067-345a-4b3d-9c3e-42438291b907")
-		)
-		(pin "2"
-			(uuid "b013d3aa-52e5-41c5-bc5c-76b23c342a2c")
-		)
-		(instances
-			(project ""
-				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -14357,6 +14263,100 @@
 			(project "macropad"
 				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 77.47 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e17828f-2871-414c-aa6a-34c393b8d18e")
+		(property "Reference" "Y3"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32Mhz"
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 77.47 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 77.47 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff1e760c-97ec-418c-bd91-ef47ab946179")
+		)
+		(pin "4"
+			(uuid "b659413a-8471-4f09-b2d5-d8e55fca6527")
+		)
+		(pin "3"
+			(uuid "d41207b8-8df7-442e-99cf-516054edeb33")
+		)
+		(pin "1"
+			(uuid "57624527-3ae8-4d5c-8f96-aba4add548d8")
+		)
+		(instances
+			(project ""
+				(path "/f0abf294-ed6a-491b-abc8-f6e6594dbb09"
+					(reference "Y3")
 					(unit 1)
 				)
 			)
